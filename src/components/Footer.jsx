@@ -15,7 +15,7 @@ const Footer = () => {
               Ace PTE offers expert online coaching and proven resources to help you succeed in the PTE exam. Join us and take a confident step toward achieving your target score.
             </p>
             <button 
-              className="bg-gradient-to-r from-blue-500 to-indigo-500 hover:from-blue-600 hover:to-indigo-600 text-white font-700 font-['Poppins'] px-6 py-3 rounded-xl transition-all duration-300 tracking-wide shadow-md hover:shadow-blue-300/50 focus:outline-none focus:ring-2 focus:ring-blue-400"
+              className="bg-sky-600 hover:bg-sky-800 text-white font-700 font-['Poppins'] px-6 py-3 rounded-xl transition-all duration-300 tracking-wide shadow-md hover:shadow-blue-300/50 focus:outline-none focus:ring-2 focus:ring-blue-400"
               onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
             >
               Get Started Now

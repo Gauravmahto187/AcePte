@@ -152,7 +152,7 @@ const Card = ({ title, price, duration, focus, idealFor, features, nextSession, 
         {/* CTA Button */}
         <button 
           onClick={() => onBookMessage(sessionType)}
-          className="w-full bg-gradient-to-r from-blue-500 to-indigo-500 hover:from-blue-600 hover:to-indigo-600 text-white font-semibold py-3 px-6 rounded-lg shadow-md hover:shadow-blue-300/50 transform hover:scale-105 transition-all duration-300 flex items-center justify-center gap-2 group font-['Poppins']"
+          className="w-full bg-sky-600 hover:bg-sky-800 text-white font-semibold py-3 px-6 rounded-lg shadow-md hover:shadow-blue-300/50 transform hover:scale-105 transition-all duration-300 flex items-center justify-center gap-2 group font-['Poppins']"
         >
           Message To Book
           <svg className="w-4 h-4 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
