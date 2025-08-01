@@ -68,7 +68,7 @@ const App = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-900 via-blue-900 to-indigo-900 font-['Inter']">
+    <div className="min-h-screen bg-gradient-to-br from-blue-50 via-indigo-50 to-purple-50 font-['Inter']">
       {/* Google Fonts Import */}
       <link rel="preconnect" href="https://fonts.googleapis.com" />
       <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
@@ -78,14 +78,14 @@ const App = () => {
 
       {/* Hero Section */}
       <section className="relative h-48 mb-8 overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-r from-blue-600/80 via-purple-600/80 to-indigo-600/80"></div>
-        <div className="absolute inset-0 bg-black/20"></div>
+        <div className="absolute inset-0 bg-gradient-to-r from-blue-400 via-indigo-400 to-purple-400"></div>
+        <div className="absolute inset-0 bg-white/40"></div>
         <div className="relative z-10 flex items-center justify-center h-full">
           <div className="text-center">
-            <h1 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-white to-blue-200 bg-clip-text text-transparent font-['Poppins'] tracking-wide mb-4">
+            <h1 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-blue-700 to-indigo-800 bg-clip-text text-transparent font-['Poppins'] tracking-wide mb-4">
               Ace Your PTE Exam
             </h1>
-            <p className="text-white/90 text-lg font-['Inter'] max-w-2xl mx-auto px-4">
+            <p className="text-gray-800 text-lg font-['Inter'] max-w-2xl mx-auto px-4">
               Expert coaching and proven strategies to help you achieve your target score
             </p>
           </div>
