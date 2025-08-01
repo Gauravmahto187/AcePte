@@ -20,7 +20,7 @@ const Card = ({ title, price, duration, focus, idealFor, features, nextSession, 
             {/* Desktop Price - Hidden on mobile */}
             <div className="relative group hidden md:block">
               {/* Main price container */}
-              <div className="relative bg-red-500 px-6 py-3 rounded-xl shadow-lg hover:rotate-0 hover:scale-105 transition-all duration-300 border-2 border-red-600">
+              <div className="relative bg-orange-600 px-6 py-3 rounded-xl shadow-lg hover:rotate-0 hover:scale-105 transition-all duration-300">
                 {/* Price text */}
                 <span className="text-white font-bold text-xl font-['Poppins'] tracking-wide">
                   {price}
@@ -28,14 +28,14 @@ const Card = ({ title, price, duration, focus, idealFor, features, nextSession, 
               </div>
             </div>
 
-            {/* Mobile Price - Simple and compact */}
-            <div className="md:hidden">
-              <div className="bg-red-400 px-4 py-2 rounded-lg shadow-md">
-                <span className="text-white font-bold text-lg font-['Poppins']">
-                  {price}
-                </span>
-              </div>
-            </div>
+                         {/* Mobile Price - Simple and compact */}
+             <div className="md:hidden">
+               <div className="bg-orange-600 px-4 py-2 rounded-lg shadow-md">
+                 <span className="text-white font-bold text-lg font-['Poppins']">
+                   {price}
+                 </span>
+               </div>
+             </div>
           </div>
         </div>
       </div>
@@ -52,8 +52,8 @@ const Card = ({ title, price, duration, focus, idealFor, features, nextSession, 
               </svg>
             </div>
             <div>
-              <span className="text-gray-600 text-sm font-bold font-['Inter']">Duration:</span>
-              <p className="text-gray-800 font-semibold font-['Poppins'] text-sm">{duration}</p>
+              <span className="text-black text-sm font-bold font-['Inter']">Duration:</span>
+              <p className="text-black font-semibold font-['Poppins'] text-sm">{duration}</p>
             </div>
           </div>
         )}
@@ -61,7 +61,7 @@ const Card = ({ title, price, duration, focus, idealFor, features, nextSession, 
         {/* Pricing Breakdown (for custom prices) */}
         {pricing && (
           <div className="space-y-2 pl-1 mb-2">
-            <span className="text-gray-600 text-sm font-bold font-['Inter']">Duration & Pricing:</span>
+            <span className="text-black text-sm font-bold font-['Inter']">Duration & Pricing:</span>
             <div className="space-y-2">
               <div className="flex justify-between items-center p-3 bg-blue-50 rounded-lg border border-blue-200">
                 <span className="text-gray-700 font-medium font-['Inter']">1 Week</span>
@@ -87,9 +87,9 @@ const Card = ({ title, price, duration, focus, idealFor, features, nextSession, 
               <circle cx="12" cy="12" r="6"></circle>
               <circle cx="12" cy="12" r="2"></circle>
             </svg>
-            <span className="text-gray-600 text-sm font-bold font-['Inter']">Focus:</span>
+            <span className="text-black text-sm font-bold font-['Inter']">Focus:</span>
           </div>
-          <p className="text-gray-700 text-sm leading-relaxed pl-7 font-['Inter']">
+          <p className="text-black font-normal text-sm leading-relaxed pl-7 font-['Inter']">
             {focus}
           </p>
         </div>
@@ -103,9 +103,9 @@ const Card = ({ title, price, duration, focus, idealFor, features, nextSession, 
               <path d="M22 21v-2a4 4 0 0 0-3-3.87"></path>
               <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
             </svg>
-            <span className="text-gray-600 text-sm font-bold font-['Inter']">Ideal For:</span>
+            <span className="text-black text-sm font-bold font-['Inter']">Ideal For:</span>
           </div>
-          <p className="text-gray-700 text-sm leading-relaxed pl-7 font-['Inter']">
+          <p className="text-black text-sm leading-relaxed pl-7 font-['Inter']">
             {idealFor}
           </p>
         </div>
@@ -117,11 +117,11 @@ const Card = ({ title, price, duration, focus, idealFor, features, nextSession, 
               <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
               <polyline points="22,4 12,14.01 9,11.01"></polyline>
             </svg>
-            <span className="text-gray-600 text-sm font-bold font-['Inter']">Features:</span>
+            <span className="text-black text-sm font-bold font-['Inter']">Features:</span>
           </div>
           <ul className="space-y-2 pl-7">
             {features.map((feature, index) => (
-              <li key={index} className="flex items-start gap-2 text-sm text-gray-700 font-['Inter']">
+              <li key={index} className="flex items-start gap-2 text-sm text-black font-['Inter']">
                 <div className="w-1.5 h-1.5 bg-blue-500 rounded-full mt-2 flex-shrink-0"></div>
                 <span className="leading-relaxed">{feature}</span>
               </li>
@@ -138,11 +138,15 @@ const Card = ({ title, price, duration, focus, idealFor, features, nextSession, 
               <line x1="8" y1="2" x2="8" y2="6"></line>
               <line x1="3" y1="10" x2="21" y2="10"></line>
             </svg>
-            <span className="text-gray-600 text-sm font-bold font-['Inter']">Next Session:</span>
+            <span className="text-black text-sm font-bold font-['Inter']">Next Sessions:</span>
           </div>
-          <p className="text-gray-800 font-semibold text-sm pl-7 font-['Poppins']">
-            {nextSession}
-          </p>
+          <div className="text-black font-semibold text-sm pl-7 font-['Poppins']">
+            {nextSession.split('\n').map((line, index) => (
+              <p key={index} className={index > 0 ? 'mt-1' : ''}>
+                {line}
+              </p>
+            ))}
+          </div>
         </div>
 
         {/* CTA Button */}

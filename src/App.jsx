@@ -25,7 +25,7 @@ const App = () => {
         "High-quality templates and practical resources for each section.",
         "Classes run Sunday to Friday for 25 days"
       ],
-      nextSession: "Starts from Sun, Aug 10 (6:00 – 7:00 pm Nepal Time)\nStarts from Sun, Aug 17 (7:00 – 8:00 am Nepal Time)",
+      nextSession: "Starts from Sun, Aug 10 (6:00 – 7:00 pm Nepal Time)\nStarts from Sun, Aug 24 (7:00 – 8:00 am Nepal Time)",
       sessionType: "Full Course In-Depth"
     },
     {
