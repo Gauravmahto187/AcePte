@@ -73,14 +73,12 @@ const Footer = () => {
                   +977 9708533439
                 </a>
               </div>
-              <div className="flex items-center space-x-2 group">
-                <svg className="w-4 h-4 text-blue-300 group-hover:text-white transition-colors duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9v-9m0-9v9" />
-                </svg>
-                <span className="hover:text-blue-400 transition-colors duration-200 cursor-not-allowed">
-                  Website coming soon...
-                </span>
-              </div>
+                             <div className="flex items-center space-x-2 group">
+                 <img src="/images/Website.png" alt="Website" className="w-4 h-4 text-blue-300 group-hover:text-white transition-colors duration-200 filter brightness-0 invert opacity-80 group-hover:opacity-100" />
+                 <a href="https://acepte.vercel.app/" target="_blank" rel="noopener noreferrer" className="hover:underline hover:text-blue-400 transition-colors duration-200">
+                   acepte.vercel.app
+                 </a>
+               </div>
             </div>
           </div>
         </div>
