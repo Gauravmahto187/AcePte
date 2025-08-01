@@ -97,8 +97,8 @@ const App = () => {
   ></div>
 
   {/* Dark overlay for better contrast */}
-  {/* <div className="absolute inset-0 bg-blue-900/60"></div> */}
-  <div className="absolute inset-0 bg-gradient-to-r from-blue-900/50 to-blue-500/30"></div>
+  <div className="absolute inset-0 bg-blue-900/60"></div>
+  {/* <div className="absolute inset-0 bg-gradient-to-r from-blue-900/50 to-blue-500/30"></div> */}
 
 
   {/* Text */}
