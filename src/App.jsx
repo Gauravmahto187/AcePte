@@ -78,11 +78,11 @@ const App = () => {
 
       {/* Hero Section */}
       <section className="relative h-48 mb-8 overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-r from-blue-400 via-indigo-400 to-purple-400"></div>
-        <div className="absolute inset-0 bg-white/40"></div>
+        <div className="absolute inset-0 bg-gradient-to-r from-blue-400 to-blue-500"></div>
+        {/* <div className="absolute inset-0 bg-white/40"></div> */}
         <div className="relative z-10 flex items-center justify-center h-full">
           <div className="text-center">
-            <h1 className="text-3xl md:text-4xl font-bold bg-gradient-to-r from-blue-700 to-indigo-800 bg-clip-text text-transparent font-['Poppins'] tracking-wide mb-4">
+            <h1 className="text-3xl md:text-4xl font-bold text-white bg-clip-text text-transparent font-['Poppins'] tracking-wide mb-4">
               Courses
             </h1>
           </div>

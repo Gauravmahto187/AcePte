@@ -7,7 +7,7 @@ const Card = ({ title, price, duration, focus, idealFor, features, nextSession, 
       <div className="absolute inset-0 bg-gradient-to-br from-blue-100/20 via-indigo-100/20 to-purple-100/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
       
       {/* Header with gradient background */}
-      <div className="relative bg-gradient-to-br from-blue-600 via-indigo-600 to-purple-600 p-6 overflow-hidden">
+      <div className="relative bg-blue-500 p-6 overflow-hidden">
         {/* Decorative elements */}
         <div className="absolute top-0 right-0 w-32 h-32 bg-white/20 rounded-full -translate-y-16 translate-x-16 group-hover:scale-110 transition-transform duration-500"></div>
         <div className="absolute bottom-0 left-0 w-24 h-24 bg-white/15 rounded-full translate-y-12 -translate-x-12 group-hover:scale-110 transition-transform duration-500"></div>
@@ -19,18 +19,12 @@ const Card = ({ title, price, duration, focus, idealFor, features, nextSession, 
           <div className="inline-block">
             {/* Desktop Price - Hidden on mobile */}
             <div className="relative group hidden md:block">
-              {/* Animated background with gradient */}
-              <div className="absolute inset-0 bg-red-400 rounded-xl blur-sm group-hover:blur-md transition-all duration-300 opacity-75"></div>
-              
               {/* Main price container */}
-              <div className="relative bg-red-400 px-6 py-3 rounded-xl shadow-lg hover:rotate-0 hover:scale-100 transition-all duration-300 border-2 border-red-600">
+              <div className="relative bg-red-500 px-6 py-3 rounded-xl shadow-lg hover:rotate-0 hover:scale-105 transition-all duration-300 border-2 border-red-600">
                 {/* Price text */}
                 <span className="text-white font-bold text-xl font-['Poppins'] tracking-wide">
                   {price}
                 </span>
-                
-                {/* Subtle glow effect */}
-                <div className="absolute inset-0 bg-gradient-to-r from-emerald-300/20 to-teal-300/20 rounded-xl opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
               </div>
             </div>
 
@@ -69,15 +63,15 @@ const Card = ({ title, price, duration, focus, idealFor, features, nextSession, 
           <div className="space-y-2 pl-1 mb-2">
             <span className="text-gray-600 text-sm font-medium font-['Inter']">Duration & Pricing:</span>
             <div className="space-y-2">
-              <div className="flex justify-between items-center p-3 bg-gradient-to-r from-blue-50 to-indigo-50 rounded-lg border border-blue-200">
+              <div className="flex justify-between items-center p-3 bg-blue-50 rounded-lg border border-blue-200">
                 <span className="text-gray-700 font-medium font-['Inter']">1 Week</span>
                 <span className="text-emerald-600 font-bold font-['Poppins']">NRS 4000</span>
               </div>
-              <div className="flex justify-between items-center p-3 bg-gradient-to-r from-indigo-50 to-purple-50 rounded-lg border border-indigo-200">
+              <div className="flex justify-between items-center p-3 bg-blue-50 rounded-lg border border-blue-200">
                 <span className="text-gray-700 font-medium font-['Inter']">10 Days</span>
                 <span className="text-emerald-600 font-bold font-['Poppins']">NRS 5000</span>
               </div>
-              <div className="flex justify-between items-center p-3 bg-gradient-to-r from-purple-50 to-pink-50 rounded-lg border border-purple-200">
+              <div className="flex justify-between items-center p-3 bg-blue-50 rounded-lg border border-blue-200">
                 <span className="text-gray-700 font-medium font-['Inter']">2 Weeks</span>
                 <span className="text-emerald-600 font-bold font-['Poppins']">NRS 7000</span>
               </div>

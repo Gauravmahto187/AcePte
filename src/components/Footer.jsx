@@ -9,7 +9,7 @@ const Footer = () => {
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {/* Company Info */}
           <div className="space-y-4">
-            <h3 className="text-2xl font-800 font-['Poppins'] bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent tracking-wide">
+            <h3 className="text-lg font-bold font-800 font-['Poppins'] tracking-wide">
               Ace PTE
             </h3>
             <p className="text-gray-700 font-['Inter'] font-normal leading-relaxed">
@@ -25,7 +25,7 @@ const Footer = () => {
 
           {/* About Section */}
           <div className="space-y-4">
-            <h4 className="text-lg font-700 font-['Poppins'] text-gray-800 tracking-wide">
+            <h4 className="text-lg font-800 font-bold font-['Poppins'] text-gray-800 tracking-wide">
               About Us
             </h4>
             <p className="text-gray-700 font-['Inter'] font-normal leading-relaxed">
@@ -53,7 +53,7 @@ const Footer = () => {
 
           {/* Contact Info */}
           <div className="space-y-4">
-            <h4 className="text-lg font-700 font-['Poppins'] text-gray-800 tracking-wide">
+            <h4 className="text-lg font-800 font-bold font-['Poppins'] text-gray-800 tracking-wide">
               Connect with us
             </h4>
             <div className="space-y-2 text-gray-700 font-['Inter'] font-normal">
