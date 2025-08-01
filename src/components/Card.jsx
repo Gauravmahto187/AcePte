@@ -17,6 +17,7 @@ const Card = ({ title, price, duration, focus, idealFor, features, nextSession, 
             {title}
           </h2>
           <div className="inline-block">
+            {/* Desktop Price - Hidden on mobile */}
             <div className="relative group hidden md:block">
               {/* Animated background with gradient */}
               <div className="absolute inset-0 bg-gradient-to-r from-emerald-500 via-green-500 to-teal-500 rounded-xl blur-sm group-hover:blur-md transition-all duration-300 opacity-75"></div>
@@ -30,6 +31,15 @@ const Card = ({ title, price, duration, focus, idealFor, features, nextSession, 
                 
                 {/* Subtle glow effect */}
                 <div className="absolute inset-0 bg-gradient-to-r from-emerald-400/20 to-teal-400/20 rounded-xl opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+              </div>
+            </div>
+
+            {/* Mobile Price - Simple and compact */}
+            <div className="md:hidden">
+              <div className="bg-gradient-to-r from-emerald-600 to-teal-600 px-4 py-2 rounded-lg shadow-lg">
+                <span className="text-white font-bold text-lg font-['Poppins']">
+                  {price}
+                </span>
               </div>
             </div>
           </div>
