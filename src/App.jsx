@@ -90,7 +90,7 @@ const App = () => {
       </section>
 
       {/* Main Content */}
-      <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+      <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 md:py-12">
         <div className="grid md:grid-cols-2 gap-8 max-w-6xl mx-auto">
           {cardData.map((card, index) => (
             <Card
