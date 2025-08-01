@@ -29,7 +29,7 @@ const Header = () => {
           </div>
 
           {/* Desktop Navigation */}
-          <nav className="hidden md:flex space-x-4">
+          <nav className="hidden md:flex space-x-6">
             <button 
               onClick={scrollToTop}
               className="text-sky-600 hover:text-sky-700 font-medium transition-colors duration-200 cursor-pointer"
@@ -40,7 +40,7 @@ const Header = () => {
               onClick={scrollToFooter}
               className="text-sky-600 hover:text-sky-700 font-medium transition-colors duration-200 cursor-pointer"
             >
-              Contact
+              Contact Us
             </button>
           </nav>
 

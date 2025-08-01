@@ -77,17 +77,38 @@ const App = () => {
       <Header />
 
       {/* Hero Section */}
-      <section className="relative h-30 md:h-48 mb-0 overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-r from-blue-400 to-blue-500"></div>
-        {/* <div className="absolute inset-0 bg-white/40"></div> */}
+      {/* <section className="relative h-30 md:h-48 mb-0 overflow-hidden">
+        <div className="absolute inset-0 bg-cover bg-center bg-no-repeat bg-transparent" style={{ backgroundImage: "url('/hero.png')" }}></div>
+        <div className="absolute inset-0 bg-cyan-400/60"></div>
         <div className="relative z-10 flex items-center justify-center h-full">
           <div className="text-center">
-            <h1 className="text-3xl md:text-4xl font-bold text-white bg-clip-text text-transparent font-['Poppins'] tracking-wide mb-4">
+            <h1 className="text-3xl md:text-4xl font-bold text-white font-['Poppins'] tracking-wide mb-4">
               Courses
             </h1>
           </div>
         </div>
-      </section>
+      </section> */}
+
+<section className="relative h-30 md:h-48 mb-0 overflow-hidden">
+  {/* Background Image */}
+  <div
+    className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+    style={{ backgroundImage: "url('/hero.png')" }}
+  ></div>
+
+  {/* Dark overlay for better contrast */}
+  <div className="absolute inset-0 bg-blue-900/60"></div>
+
+  {/* Text */}
+  <div className="relative z-10 flex items-center justify-center h-full">
+    <div className="text-center">
+      <h1 className="text-3xl md:text-4xl font-bold text-white font-['Poppins'] tracking-wide mb-4">
+        Courses
+      </h1>
+    </div>
+  </div>
+</section>
+
 
       {/* Main Content */}
       <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 md:py-12">
