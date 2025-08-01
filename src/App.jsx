@@ -8,7 +8,7 @@ const App = () => {
     const phoneNumber = "9779708533439";
     const message = `Hi! I'm interested in booking the ${session} session. Can you provide more details?`;
     const whatsappUrl = `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${encodeURIComponent(message)}`;
-    window.open(whatsappUrl, '_blank');
+    window.open(whatsappUrl, '_self');
   };
 
   const cardData = [
