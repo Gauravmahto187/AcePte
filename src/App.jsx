@@ -6,7 +6,7 @@ import Footer from './components/Footer';
 const App = () => {
   const handleBookMessage = (session) => {
     const phoneNumber = "9779708533439";
-    const message = `Hi! I'm interested in booking the ${session} session. Can you provide more details?`;
+    const message = `I'm interested in booking the ${session} session. How do I book the class?`;
     const whatsappUrl = `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${encodeURIComponent(message)}`;
     window.open(whatsappUrl, '_self');
   };
