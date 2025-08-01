@@ -20,10 +20,10 @@ const Card = ({ title, price, duration, focus, idealFor, features, nextSession, 
             {/* Desktop Price - Hidden on mobile */}
             <div className="relative group hidden md:block">
               {/* Animated background with gradient */}
-              <div className="absolute inset-0 bg-gradient-to-r from-emerald-500 via-green-500 to-teal-500 rounded-xl blur-sm group-hover:blur-md transition-all duration-300 opacity-75"></div>
+              <div className="absolute inset-0 bg-red-400 rounded-xl blur-sm group-hover:blur-md transition-all duration-300 opacity-75"></div>
               
               {/* Main price container */}
-              <div className="relative bg-gradient-to-r from-emerald-500 via-green-500 to-teal-500 px-6 py-3 rounded-xl shadow-lg transform -rotate-1 hover:rotate-0 hover:scale-105 transition-all duration-300 border-2 border-emerald-300">
+              <div className="relative bg-red-400 px-6 py-3 rounded-xl shadow-lg hover:rotate-0 hover:scale-100 transition-all duration-300 border-2 border-red-600">
                 {/* Price text */}
                 <span className="text-white font-bold text-xl font-['Poppins'] tracking-wide">
                   {price}
