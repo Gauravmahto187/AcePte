@@ -53,7 +53,7 @@ const Footer = () => {
 
           {/* Contact Info */}
           <div className="space-y-4">
-            <h4 className="text-lg font-800 font-bold font-['Poppins'] text-gray-800 tracking-wide">
+            <h4 className="text-lg font-800 font-['Poppins'] text-gray-800 tracking-wide">
               Connect with us
             </h4>
             <div className="space-y-2 text-gray-700 font-['Inter'] font-normal">

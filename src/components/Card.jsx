@@ -52,7 +52,7 @@ const Card = ({ title, price, duration, focus, idealFor, features, nextSession, 
               </svg>
             </div>
             <div>
-              <span className="text-gray-600 text-sm font-medium font-['Inter']">Duration:</span>
+              <span className="text-gray-600 text-sm font-bold font-['Inter']">Duration:</span>
               <p className="text-gray-800 font-semibold font-['Poppins'] text-sm">{duration}</p>
             </div>
           </div>
@@ -61,7 +61,7 @@ const Card = ({ title, price, duration, focus, idealFor, features, nextSession, 
         {/* Pricing Breakdown (for custom prices) */}
         {pricing && (
           <div className="space-y-2 pl-1 mb-2">
-            <span className="text-gray-600 text-sm font-medium font-['Inter']">Duration & Pricing:</span>
+            <span className="text-gray-600 text-sm font-bold font-['Inter']">Duration & Pricing:</span>
             <div className="space-y-2">
               <div className="flex justify-between items-center p-3 bg-blue-50 rounded-lg border border-blue-200">
                 <span className="text-gray-700 font-medium font-['Inter']">1 Week</span>
@@ -87,7 +87,7 @@ const Card = ({ title, price, duration, focus, idealFor, features, nextSession, 
               <circle cx="12" cy="12" r="6"></circle>
               <circle cx="12" cy="12" r="2"></circle>
             </svg>
-            <span className="text-gray-600 text-sm font-medium font-['Inter']">Focus:</span>
+            <span className="text-gray-600 text-sm font-bold font-['Inter']">Focus:</span>
           </div>
           <p className="text-gray-700 text-sm leading-relaxed pl-7 font-['Inter']">
             {focus}
@@ -103,7 +103,7 @@ const Card = ({ title, price, duration, focus, idealFor, features, nextSession, 
               <path d="M22 21v-2a4 4 0 0 0-3-3.87"></path>
               <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
             </svg>
-            <span className="text-gray-600 text-sm font-medium font-['Inter']">Ideal For:</span>
+            <span className="text-gray-600 text-sm font-bold font-['Inter']">Ideal For:</span>
           </div>
           <p className="text-gray-700 text-sm leading-relaxed pl-7 font-['Inter']">
             {idealFor}
@@ -117,12 +117,12 @@ const Card = ({ title, price, duration, focus, idealFor, features, nextSession, 
               <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
               <polyline points="22,4 12,14.01 9,11.01"></polyline>
             </svg>
-            <span className="text-gray-600 text-sm font-medium font-['Inter']">Features:</span>
+            <span className="text-gray-600 text-sm font-bold font-['Inter']">Features:</span>
           </div>
           <ul className="space-y-2 pl-7">
             {features.map((feature, index) => (
               <li key={index} className="flex items-start gap-2 text-sm text-gray-700 font-['Inter']">
-                <div className="w-1.5 h-1.5 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full mt-2 flex-shrink-0"></div>
+                <div className="w-1.5 h-1.5 bg-blue-500 rounded-full mt-2 flex-shrink-0"></div>
                 <span className="leading-relaxed">{feature}</span>
               </li>
             ))}
@@ -138,7 +138,7 @@ const Card = ({ title, price, duration, focus, idealFor, features, nextSession, 
               <line x1="8" y1="2" x2="8" y2="6"></line>
               <line x1="3" y1="10" x2="21" y2="10"></line>
             </svg>
-            <span className="text-gray-600 text-sm font-medium font-['Inter']">Next Session:</span>
+            <span className="text-gray-600 text-sm font-bold font-['Inter']">Next Session:</span>
           </div>
           <p className="text-gray-800 font-semibold text-sm pl-7 font-['Poppins']">
             {nextSession}
