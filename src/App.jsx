@@ -82,12 +82,9 @@ const App = () => {
         <div className="absolute inset-0 bg-white/40"></div>
         <div className="relative z-10 flex items-center justify-center h-full">
           <div className="text-center">
-            <h1 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-blue-700 to-indigo-800 bg-clip-text text-transparent font-['Poppins'] tracking-wide mb-4">
-              Ace Your PTE Exam
+            <h1 className="text-3xl md:text-4xl font-bold bg-gradient-to-r from-blue-700 to-indigo-800 bg-clip-text text-transparent font-['Poppins'] tracking-wide mb-4">
+              Courses
             </h1>
-            <p className="text-gray-800 text-lg font-['Inter'] max-w-2xl mx-auto px-4">
-              Expert coaching and proven strategies to help you achieve your target score
-            </p>
           </div>
         </div>
       </section>
