@@ -1,4 +1,6 @@
 import React, { useState } from 'react';
+import { Analytics } from '@vercel/analytics/react';
+
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -19,6 +21,7 @@ const Header = () => {
 
   return (
     <header className="bg-white backdrop-blur-md border-b border-gray-200 shadow-sm sticky top-0 z-50">
+      <Analytics />
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <div className="flex items-center -space-x-1">
