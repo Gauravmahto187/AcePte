@@ -4,9 +4,9 @@ import Card from './components/Card';
 import Footer from './components/Footer';
 
 const App = () => {
-  const handleBookMessage = (session) => {
+  const handleBookMessage = () => {
     const phoneNumber = "9779708533439";
-    const message = `I'm interested in booking the ${session} session. How do I book the class?`;
+    const message = ``;
     const whatsappUrl = `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${encodeURIComponent(message)}`;
     window.open(whatsappUrl, '_self');
   };
@@ -16,10 +16,10 @@ const App = () => {
       title: "Full Course In-Depth",
       price: "NPR 3000",
       duration: "25 Days",
-      focus: "Complete and easy-to-follow training, starting from the basics. Perfect for all types of learners, especially beginners who need step-by-step guidance.",
+      focus: "Complete and easy-to-follow training, starting from the basics to advanced PTE levels.",
       idealFor: "Anyone new to the PTE exam or planning to start their preparation from the ground up.",
       features: [
-        "Lessons start from the very basics—no prior knowledge needed.",
+        "Lessons start from the very basics, no prior knowledge needed.",
         "Smart tips and scoring techniques to help you perform better.",
         "Helpful materials to improve grammar and other core skills.",
         "High-quality templates and practical resources for each section.",
@@ -32,8 +32,8 @@ const App = () => {
       title: "1-Week Crash Course",
       price: "NPR 1200",
       duration: "1 Week",
-      focus: "Special emphasis on the most high-scoring question types, with moderate attention to moderately important ones — ideal for quick revision and improvement.",
-      idealFor: "Students who already have some understanding of PTE or have taken the test before and want a fast, focused review.",
+      focus: "Special emphasis on the most high-scoring question types, ideal for quick revision and improvement.",
+      idealFor: "Students who already have some understanding of PTE and want a fast, focused review.",
       features: [
         "Focused and complete preparation to get you test-ready in just one week",
         "Score-boosting tips, tricks, and strategies designed for short-term impact",
@@ -97,7 +97,7 @@ const App = () => {
   ></div>
 
   {/* Dark overlay for better contrast */}
-  <div className="absolute inset-0 bg-blue-900/60"></div>
+  <div className="absolute inset-0 bg-blue-900/55"></div>
   {/* <div className="absolute inset-0 bg-gradient-to-r from-blue-900/50 to-blue-500/30"></div> */}
 
 
