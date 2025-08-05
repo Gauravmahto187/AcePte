@@ -27,7 +27,7 @@ const Header = () => {
           <div className="flex items-center -space-x-1">
             <img src="/images/Ace.png" alt="Ace PTE Logo" className="h-12 w-auto" />
             <span className="text-cyan-700 font-['Poppins'] font-bold text-xl tracking-wide">
-              Ace<span className='text-yellow-400'>PTE</span> 
+              Ace<span className='text-yellow-400'>PTE</span>
             </span>
           </div>
 

@@ -2,6 +2,7 @@ import React from 'react';
 import Header from './components/Header';
 import Card from './components/Card';
 import Footer from './components/Footer';
+import { SpeedInsights } from '@vercel/speed-insights/react';
 
 const App = () => {
   const handleBookMessage = () => {
@@ -70,6 +71,7 @@ const App = () => {
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 via-indigo-50 to-purple-50 font-['Inter']">
       {/* Google Fonts Import */}
+      <SpeedInsights />
       <link rel="preconnect" href="https://fonts.googleapis.com" />
       <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
       <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Poppins:wght@300;400;500;600;700;800;900&family=Outfit:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
