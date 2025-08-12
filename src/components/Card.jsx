@@ -154,7 +154,7 @@ const Card = ({ title, price, duration, focus, idealFor, features, nextSession, 
           onClick={() => onBookMessage(sessionType)}
           className="w-full bg-cyan-700 hover:bg-cyan-900 text-white font-semibold py-3 px-6 rounded-lg shadow-md hover:shadow-blue-300/50 transform hover:scale-105 transition-all duration-300 flex items-center justify-center gap-2 group font-['Poppins']"
         >
-          Message To Book
+          Message On Whatsapp
           <svg className="w-4 h-4 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <line x1="5" y1="12" x2="19" y2="12"></line>
             <polyline points="12,5 19,12 12,19"></polyline>

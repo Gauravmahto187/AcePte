@@ -15,8 +15,8 @@ const App = () => {
   const cardData = [
     {
       title: "Full Course In-Depth",
-      price: "NPR 3000",
-      duration: "25 Days",
+      price: "NPR 3500",
+      duration: "30 Days",
       focus: "Complete and easy-to-follow training, starting from the basics to advanced PTE levels.",
       idealFor: "Anyone new to the PTE exam or planning to start their preparation from the ground up.",
       features: [
@@ -24,26 +24,26 @@ const App = () => {
         "Smart tips and scoring techniques to help you perform better.",
         "Helpful materials to improve grammar and other core skills.",
         "High-quality templates and practical resources for each section.",
-        "Classes run Sunday to Friday for 25 days"
+        "Classes run Monday to Friday for 30 days"
       ],
-      nextSession: "Starts from Sun, Aug 10 (6:00 – 7:00 pm Nepal Time)\nStarts from Sun, Aug 24 (7:00 – 8:00 am Nepal Time)",
+      nextSession: "Starts from Sun, Aug 10 (6:00 – 7:00 pm Nepal Time)\nStarts from Mon, Aug 25 (8:00 – 9:00 am Nepal Time)",
       sessionType: "Full Course In-Depth"
     },
-    {
-      title: "1-Week Crash Course",
-      price: "NPR 1200",
-      duration: "1 Week",
-      focus: "Special emphasis on the most high-scoring question types, ideal for quick revision and improvement.",
-      idealFor: "Students who already have some understanding of PTE and want a fast, focused review.",
-      features: [
-        "Focused and complete preparation to get you test-ready in just one week",
-        "Score-boosting tips, tricks, and strategies designed for short-term impact",
-        "Access to effective templates and practical study materials",
-        "Classes run from Sunday to Friday"
-      ],
-      nextSession: "Starts from Sunday, Aug 17 (8:00 – 9:00 am Nepal Time)",
-      sessionType: "1-Week Crash Course"
-    },
+    // {
+    //   title: "1-Week Crash Course",
+    //   price: "NPR 1200",
+    //   duration: "1 Week",
+    //   focus: "Special emphasis on the most high-scoring question types, ideal for quick revision and improvement.",
+    //   idealFor: "Students who already have some understanding of PTE and want a fast, focused review.",
+    //   features: [
+    //     "Focused and complete preparation to get you test-ready in just one week",
+    //     "Score-boosting tips, tricks, and strategies designed for short-term impact",
+    //     "Access to effective templates and practical study materials",
+    //     "Classes run from Sunday to Friday"
+    //   ],
+    //   nextSession: "Starts from Sunday, Aug 17 (8:00 – 9:00 am Nepal Time)",
+    //   sessionType: "1-Week Crash Course"
+    // },
     {
       title: "1-on-1 Personal Class",
       price: "Custom Prices",
