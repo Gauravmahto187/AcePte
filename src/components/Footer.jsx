@@ -74,8 +74,8 @@ const Footer = () => {
               </div>
                              <div className="flex items-center space-x-2 group">
                  <img src="/images/Website.png" alt="Website" className="w-4 h-4 text-blue-300 group-hover:text-blue-800 transition-colors duration-200 filter brightness-0 opacity-70 group-hover:opacity-100" />
-                 <a href="https://acepte.vercel.app/" target="_blank" rel="noopener noreferrer" className="hover:underline hover:text-blue-600 transition-colors duration-200">
-                   acepte.vercel.app
+                 <a href="https://aceptecourse.com/" target="_blank" rel="noopener noreferrer" className="hover:underline hover:text-blue-600 transition-colors duration-200">
+                   aceptecourse.com
                  </a>
                </div>
             </div>
