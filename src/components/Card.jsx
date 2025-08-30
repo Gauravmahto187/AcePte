@@ -34,8 +34,8 @@ const Card = ({ title, price, duration, focus, idealFor, features, nextSession, 
 
         {/* Mobile Price - Simple and compact */}
         <div className="md:hidden">
-          <div className="bg-orange-600 px-4 py-2 rounded-lg shadow-md">
-            <span className="text-white font-bold text-lg font-['Poppins']">
+          <div className="bg-orange-600 px-3 py-1.5 rounded-md shadow-md">
+            <span className="text-white font-bold text-base font-['Poppins']">
               {price}
             </span>
           </div>

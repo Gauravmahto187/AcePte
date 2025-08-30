@@ -24,7 +24,7 @@ const App = () => {
         "Smart tips and scoring techniques to help you perform better.",
         "Helpful materials to improve grammar and other vital skills.",
         "High-quality templates and practical resources for each section.",
-        "Classes run Monday to Friday for 30 days"
+        "Classes run Monday to Friday for 30 days."
       ],
       nextSession: "Starts from Mon, Sep 08 (6:00 - 7:00 pm Nepal Time)",
       sessionType: "Full Course In-Depth"
