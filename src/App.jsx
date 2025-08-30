@@ -17,16 +17,16 @@ const App = () => {
       title: "Full Course In-Depth",
       price: "NPR 3500",
       duration: "30 Days",
-      focus: "Complete and easy-to-follow training, starting from the basics to advanced PTE levels.",
+      focus: "A structured program guiding you from basics to advanced skills, fully preparing you for the PTE exam",
       idealFor: "Anyone new to the PTE exam or planning to start their preparation from the ground up.",
       features: [
         "Lessons start from the very basics, no prior knowledge needed.",
         "Smart tips and scoring techniques to help you perform better.",
-        "Helpful materials to improve grammar and other core skills.",
+        "Helpful materials to improve grammar and other vital skills.",
         "High-quality templates and practical resources for each section.",
         "Classes run Monday to Friday for 30 days"
       ],
-      nextSession: "Starts from Mon, Aug 25 (8:00 – 9:00 am Nepal Time)",
+      nextSession: "Starts from Mon, Sep 08 (6:00 - 7:00 pm Nepal Time)",
       sessionType: "Full Course In-Depth"
     },
     // {

@@ -7,7 +7,7 @@ const Card = ({ title, price, duration, focus, idealFor, features, nextSession, 
       <div className="absolute inset-0 bg-gradient-to-br from-blue-100/20 via-indigo-100/20 to-purple-100/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
       
       {/* Header with gradient background */}
-      <div className="relative bg-cyan-700 p-6 overflow-hidden">
+      <div className="relative bg-sky-600 p-6 overflow-hidden">
         {/* Decorative elements */}
         <div className="absolute top-0 right-0 w-32 h-32 bg-white/20 rounded-full -translate-y-16 translate-x-16 group-hover:scale-110 transition-transform duration-500"></div>
         <div className="absolute bottom-0 left-0 w-24 h-24 bg-white/15 rounded-full translate-y-12 -translate-x-12 group-hover:scale-110 transition-transform duration-500"></div>
@@ -152,7 +152,7 @@ const Card = ({ title, price, duration, focus, idealFor, features, nextSession, 
         {/* CTA Button */}
         <button 
           onClick={() => onBookMessage(sessionType)}
-          className="w-full bg-cyan-700 hover:bg-cyan-900 text-white font-semibold py-3 px-6 rounded-lg shadow-md hover:shadow-blue-300/50 transform hover:scale-105 transition-all duration-300 flex items-center justify-center gap-2 group font-['Poppins']"
+          className="w-full bg-sky-600 hover:bg-sky-800 text-white font-semibold py-3 px-6 rounded-lg shadow-md hover:shadow-blue-300/50 transform hover:scale-105 transition-all duration-300 flex items-center justify-center gap-2 group font-['Poppins']"
         >
           Message On Whatsapp
           <svg className="w-4 h-4 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
