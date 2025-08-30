@@ -17,7 +17,7 @@ const App = () => {
       title: "Full Course In-Depth",
       price: "NPR 3500",
       duration: "30 Days",
-      focus: "A structured program guiding you from basics to advanced skills, fully preparing you for the PTE exam",
+      focus: "A structured program guiding you from basics to advanced skills, fully preparing you for the PTE exam.",
       idealFor: "Anyone new to the PTE exam or planning to start their preparation from the ground up.",
       features: [
         "Lessons start from the very basics, no prior knowledge needed.",
