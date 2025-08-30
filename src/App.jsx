@@ -106,7 +106,7 @@ const App = () => {
   {/* Text */}
   <div className="relative z-10 flex items-center justify-center h-full">
     <div className="text-center">
-      <h1 className="text-3xl md:text-4xl font-bold text-white font-['Poppins'] tracking-wide mb-4">
+      <h1 className="text-3xl md:text-5xl font-bold text-white font-['Poppins'] tracking-wide mb-4">
         Courses
       </h1>
     </div>

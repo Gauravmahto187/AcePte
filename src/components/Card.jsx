@@ -16,26 +16,28 @@ const Card = ({ title, price, duration, focus, idealFor, features, nextSession, 
           <h2 className="text-2xl font-bold text-white mb-2 font-['Poppins'] tracking-wide">
             {title}
           </h2>
-          <div className="inline-block">
-            {/* Desktop Price - Hidden on mobile */}
-            <div className="relative group hidden md:block">
-              {/* Main price container */}
-              <div className="relative bg-orange-600 px-6 py-3 rounded-xl shadow-lg hover:rotate-0 hover:scale-105 transition-all duration-300">
-                {/* Price text */}
-                <span className="text-white font-bold text-xl font-['Poppins'] tracking-wide">
-                  {price}
-                </span>
-              </div>
-            </div>
+        </div>
+      </div>
 
-                         {/* Mobile Price - Simple and compact */}
-             <div className="md:hidden">
-               <div className="bg-orange-600 px-4 py-2 rounded-lg shadow-md">
-                 <span className="text-white font-bold text-lg font-['Poppins']">
-                   {price}
-                 </span>
-               </div>
-             </div>
+      {/* Price positioned at the border between blue and white */}
+      <div className="relative -mt-6 mb-2 flex justify-start pl-6">
+        {/* Desktop Price - Hidden on mobile */}
+        <div className="relative group hidden md:block">
+          {/* Main price container */}
+          <div className="relative bg-orange-600 px-6 py-3 rounded-xl shadow-lg hover:rotate-0 hover:scale-105 transition-all duration-300">
+            {/* Price text */}
+            <span className="text-white font-bold text-xl font-['Poppins'] tracking-wide">
+              {price}
+            </span>
+          </div>
+        </div>
+
+        {/* Mobile Price - Simple and compact */}
+        <div className="md:hidden">
+          <div className="bg-orange-600 px-4 py-2 rounded-lg shadow-md">
+            <span className="text-white font-bold text-lg font-['Poppins']">
+              {price}
+            </span>
           </div>
         </div>
       </div>
