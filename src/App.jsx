@@ -29,6 +29,7 @@ const App = () => {
       nextSession: "Starts from Mon, Sep 08 (6:00 - 7:00 pm Nepal Time)",
       sessionType: "Full Course In-Depth"
     },
+    
     // {
     //   title: "1-Week Crash Course",
     //   price: "NPR 1200",
