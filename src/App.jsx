@@ -26,7 +26,7 @@ const App = () => {
         "High-quality templates and practical resources for each section.",
         "Classes run Monday to Friday for 30 days."
       ],
-      nextSession: "Starts from Mon, Nov 25 (6:00 - 7:00 pm Nepal Time)",
+      nextSession: "Starts from Tue, Nov 25 (6:00 - 7:00 pm Nepal Time)",
       sessionType: "Full Course In-Depth"
     },
     
@@ -64,7 +64,7 @@ const App = () => {
         "10 Days – NPR 5000",
         "2 Weeks – NPR 7000"
       ],
-      nextSession: "Not available Now",
+      nextSession: "Not available now",
       sessionType: "1-on-1 Personal Class"
     }
   ];
