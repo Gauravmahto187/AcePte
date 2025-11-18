@@ -26,7 +26,7 @@ const App = () => {
         "High-quality templates and practical resources for each section.",
         "Classes run Monday to Friday for 30 days."
       ],
-      nextSession: "Starts from Mon, Oct 27 (5:00 - 6:00 pm Nepal Time)",
+      nextSession: "Starts from Mon, Nov 25 (6:00 - 7:00 pm Nepal Time)",
       sessionType: "Full Course In-Depth"
     },
     
@@ -42,7 +42,7 @@ const App = () => {
     //     "Access to effective templates and practical study materials",
     //     "Classes run from Sunday to Friday"
     //   ],
-    //   nextSession: "Starts from Sunday, Aug 17 (8:00 – 9:00 am Nepal Time)",
+    //   nextSession: "Not available",
     //   sessionType: "1-Week Crash Course"
     // },
     {
@@ -64,7 +64,7 @@ const App = () => {
         "10 Days – NPR 5000",
         "2 Weeks – NPR 7000"
       ],
-      nextSession: "Available Now (Booking Required – Limited Slots)",
+      nextSession: "Not available Now",
       sessionType: "1-on-1 Personal Class"
     }
   ];
