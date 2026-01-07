@@ -132,29 +132,31 @@ const Card = ({ title, price, duration, focus, idealFor, features, nextSession, 
         </div>
 
         {/* Next Session */}
-        <div className="bg-gradient-to-r from-blue-50 to-indigo-50 border border-blue-200 rounded-lg p-4 space-y-0">
-          <div className="flex items-center gap-2">
-            <svg className="w-5 h-5 text-blue-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
-              <line x1="16" y1="2" x2="16" y2="6"></line>
-              <line x1="8" y1="2" x2="8" y2="6"></line>
-              <line x1="3" y1="10" x2="21" y2="10"></line>
-            </svg>
-            <span className="text-black text-lg font-bold font-['Inter']">Next Sessions:</span>
+        {nextSession && (
+          <div className="bg-gradient-to-r from-blue-50 to-indigo-50 border border-blue-200 rounded-lg p-4 space-y-0">
+            <div className="flex items-center gap-2">
+              <svg className="w-5 h-5 text-blue-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                <line x1="16" y1="2" x2="16" y2="6"></line>
+                <line x1="8" y1="2" x2="8" y2="6"></line>
+                <line x1="3" y1="10" x2="21" y2="10"></line>
+              </svg>
+              <span className="text-black text-lg font-bold font-['Inter']">Next Sessions:</span>
+            </div>
+            <div className="text-black font-semibold text-base pl-7 font-['Poppins']">
+              {nextSession.split('\n').map((line, index) => (
+                <p key={index} className={index > 0 ? 'mt-1' : ''}>
+                  {line}
+                </p>
+              ))}
+            </div>
           </div>
-          <div className="text-black font-semibold text-base pl-7 font-['Poppins']">
-            {nextSession.split('\n').map((line, index) => (
-              <p key={index} className={index > 0 ? 'mt-1' : ''}>
-                {line}
-              </p>
-            ))}
-          </div>
-        </div>
+        )}
 
         {/* CTA Button */}
         <button 
           onClick={() => onBookMessage(sessionType)}
-          className="w-full bg-sky-600 hover:bg-sky-800 text-white font-semibold py-3 px-6 rounded-lg shadow-md hover:shadow-blue-300/50 transform hover:scale-105 transition-all duration-300 flex items-center justify-center gap-2 group font-['Poppins']"
+          className="w-full bg-green-500 hover:bg-green-600 text-white font-semibold py-3 px-6 rounded-lg shadow-md hover:shadow-blue-300/50 transform hover:scale-105 transition-all duration-300 flex items-center justify-center gap-2 group font-['Poppins']"
         >
           Message On Whatsapp
           <svg className="w-4 h-4 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
