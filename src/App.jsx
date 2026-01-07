@@ -41,7 +41,7 @@ const App = () => {
     //     "Access to effective templates and practical study materials",
     //     "Classes run from Sunday to Friday"
     //   ],
-    //   nextSession: "Starts from Sunday, Aug 17 (8:00 – 9:00 am Nepal Time)",
+    //   nextSession: "Not available",
     //   sessionType: "1-Week Crash Course"
     // },
     {
@@ -63,7 +63,7 @@ const App = () => {
         "10 Days – NPR 5000",
         "2 Weeks – NPR 7000"
       ],
-      nextSession: "Available Now (Booking Required – Limited Slots)",
+      nextSession: "Not available now",
       sessionType: "1-on-1 Personal Class"
     }
   ];
