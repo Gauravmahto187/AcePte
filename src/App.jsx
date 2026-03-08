@@ -15,7 +15,7 @@ const App = () => {
   const cardData = [
     {
       title: "Full Course In-Depth",
-      price: "NPR 3500",
+      price: "NPR 4000",
       duration: "30 Days",
       focus: "A structured program guiding you from basics to advanced skills, fully preparing you for the PTE exam.",
       idealFor: "Anyone new to the PTE exam or planning to start their preparation from the ground up.",
@@ -26,6 +26,7 @@ const App = () => {
         "High-quality templates and practical resources for each section.",
         "Classes run Monday to Friday for 30 days."
       ],
+      nextSession: "8-9pm, 9th March",
       sessionType: "Full Course In-Depth"
     },
     
