@@ -26,7 +26,7 @@ const App = () => {
         "High-quality templates and practical resources for each section.",
         "Classes run Monday to Friday for 30 days."
       ],
-      nextSession: "8:00 – 9:00 AM 23rd March",
+      nextSession: "8:00 – 9:00 AM 23rd March \n 6:00 – 7:00 PM 23rd March",
       sessionType: "Full Course In-Depth"
     },
     
