@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Card = ({ title, price, duration, focus, idealFor, features, nextSession, sessionType, onBookMessage, pricing }) => {
+const Card = ({ title, price, duration, focus, idealFor, features, nextSession, sessionType, onBookMessage, pricing, startDate }) => {
   return (
     <div className="group relative bg-white rounded-3xl overflow-hidden shadow-lg hover:shadow-blue-300/50 transition-all duration-500 border border-blue-100">
       {/* Animated background gradient */}
@@ -131,25 +131,46 @@ const Card = ({ title, price, duration, focus, idealFor, features, nextSession, 
           </ul>
         </div>
 
-        {/* Next Session */}
-        {nextSession && (
-          <div className="bg-gradient-to-r from-blue-50 to-indigo-50 border border-blue-200 rounded-lg p-4 space-y-0">
-            <div className="flex items-center gap-2">
-              <svg className="w-5 h-5 text-blue-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
-                <line x1="16" y1="2" x2="16" y2="6"></line>
-                <line x1="8" y1="2" x2="8" y2="6"></line>
-                <line x1="3" y1="10" x2="21" y2="10"></line>
-              </svg>
-              <span className="text-black text-lg font-bold font-['Inter']">Next Sessions:</span>
-            </div>
-            <div className="text-black font-semibold text-base pl-7 font-['Poppins']">
-              {nextSession.split('\n').map((line, index) => (
-                <p key={index} className={index > 0 ? 'mt-1' : ''}>
-                  {line}
+        {/* Next Session and Start Date Combined */}
+        {(nextSession || startDate) && (
+          <div className="bg-gradient-to-r from-blue-50 to-indigo-50 border border-blue-200 rounded-lg p-4 space-y-3">
+            {nextSession && (
+              <div className="space-y-0">
+                <div className="flex items-center gap-2">
+                  <svg className="w-5 h-5 text-blue-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                    <line x1="16" y1="2" x2="16" y2="6"></line>
+                    <line x1="8" y1="2" x2="8" y2="6"></line>
+                    <line x1="3" y1="10" x2="21" y2="10"></line>
+                  </svg>
+                  <span className="text-black text-lg font-bold font-['Inter']">Available Time Slots:</span>
+                </div>
+                <div className="text-black font-semibold text-base pl-7 font-['Poppins']">
+                  {nextSession.split('\n').map((line, index) => (
+                    <p key={index} className={index > 0 ? 'mt-1' : ''}>
+                      {line}
+                    </p>
+                  ))}
+                </div>
+              </div>
+            )}
+            
+            {startDate && (
+              <div className="space-y-0">
+                <div className="flex items-center gap-2">
+                  <svg className="w-5 h-5 text-blue-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                    <line x1="16" y1="2" x2="16" y2="6"></line>
+                    <line x1="8" y1="2" x2="8" y2="6"></line>
+                    <line x1="3" y1="10" x2="21" y2="10"></line>
+                  </svg>
+                  <span className="text-black text-lg font-bold font-['Inter']">Start Date:</span>
+                </div>
+                <p className="text-black font-semibold text-base pl-7 font-['Poppins']">
+                  {startDate}
                 </p>
-              ))}
-            </div>
+              </div>
+            )}
           </div>
         )}
 
