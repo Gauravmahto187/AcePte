@@ -26,7 +26,7 @@ const App = () => {
         "High-quality templates and practical resources for each section.",
         "Classes run Monday to Friday for 30 days."
       ],
-      nextSession: "6:00 – 7:00 PM 23rd March",
+      nextSession: "6:00 – 7:00 PM (23rd March)",
       sessionType: "Full Course In-Depth"
     },
     
@@ -42,7 +42,7 @@ const App = () => {
     //     "Access to effective templates and practical study materials",
     //     "Classes run from Sunday to Friday"
     //   ],
-    //   nextSession: "Not available",
+    //   nextSession: "Not available ",
     //   sessionType: "1-Week Crash Course"
     // },
     {
@@ -64,7 +64,7 @@ const App = () => {
         "10 Days – NPR 5000",
         "2 Weeks – NPR 7000"
       ],
-      nextSession: "Not available now",
+      nextSession: "Not available right now",
       sessionType: "1-on-1 Personal Class"
     },
     {
