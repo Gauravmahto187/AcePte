@@ -81,7 +81,7 @@ const App = () => {
         "Proven strategies and high-scoring answer templates",
         "Time-management techniques for the actual exam"
       ],
-      nextSession: "8:00 – 9:00 AM \n 4:00 – 5:00 PM",
+      nextSession: "9:00 – 10:00 AM (Available) \n 4:00 – 5:00 PM (Not Available)",
       startDate: "Based on student availability",
       sessionType: "Group Class of 5"
     }
